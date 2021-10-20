@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <div class="searchSect">
+        <p class="title">The Weather Website</p>
+        <input id="Cityfetch" placeholder="Insert City Name!">
+        <button type="button" onclick="GCN()"> Get Weather </button>
+</div>
+
+    <div class=whole>
+        <div class="weatherSect">
+            <img id="current-pic" alt="">
+            <p id="nameofcity"></p>
+            <p id="temperature"></p>
+            <p id="wind"></p>
+                <div class=UVD>
+                    <p id="UV"></p>
+                </div>
+            <p id="humidity"></p>
+        </div>
+    </div>
+    
+    <div class="forecast">
+        <div class="weatherCard">
+            <img id="pic2" alt=""/>
+            <p id="day1"></p>
+            <p id="temperature1"></p>
+            <p id="wind1"></p>
+            <p id="UV1"></p>
+            <p id="humidity1"></p>
+        </div>
+        <div class="weatherCard">
+            <img id="pic3" alt=""/>
+            <p id="day2"></p>
+            <p id="temperature2"></p>
+            <p id="wind2"></p>
+            <p id="UV2"></p>
+            <p id="humidity2"></p>
+        </div>
+        <div class="weatherCard">
+            <img id="pic4" alt=""/>
+            <p id="day3"></p>
+            <p id="temperature3"></p>
+            <p id="wind3"></p>
+            <p id="UV3"></p>
+            <p id="humidity3"></p>
+        </div>
+        <div class="weatherCard">
+            <img id="pic5" alt=""/>
+            <p id="day4"></p>
+            <p id="temperature4"></p>
+            <p id="wind4"></p>
+            <p id="UV4"></p>
+            <p id="humidity4"></p>
+        </div>
+        <div class="weatherCard">
+            <img id="pic6" alt=""/>
+            <p id="day5"></p>
+            <p id="temperature5"></p>
+            <p id="wind5"></p>
+            <p id="UV5"></p>
+            <p id="humidity5"></p>
+        </div>
+    </div>
+<p id=histories></p>
+<script src="weatherApiScript.js"></script>
+</body>
+</html>

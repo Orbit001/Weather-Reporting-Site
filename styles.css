@@ -1,0 +1,69 @@
+body{
+    background-color: #e9e5dc;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.searchSect{
+    text-align: center;
+}
+
+.weatherSect{
+    border: solid darkslategray;
+    background-color: #77b8ec;
+    width: 30%;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    align-items:left;
+    margin-top: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.weatherSect p{
+    text-align: center;
+}
+
+#current-pic{
+    align-items: center;
+    margin:auto;
+    height:100px;
+    width:100px;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 70px;
+    color: #7c523a;
+}
+
+.whole{
+
+
+    display:flex;
+    justify-content: center;
+    align-items:left;
+}
+
+.UVD{
+    width:13%;
+    margin:auto;
+}
+
+.forecast{
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.weatherCard{
+    border: solid darkslategray;
+    background-color: cadetblue;
+    padding-left: 3%;
+    padding-right: 2%;
+}
